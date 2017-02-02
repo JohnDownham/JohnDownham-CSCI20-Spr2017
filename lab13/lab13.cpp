@@ -6,10 +6,10 @@
  
  int main()
  {
-     int currentPop=324458075;
-     int addPopAYear= 2147967;
-     int yearChosen= 0;
-     int yearPlus= currentPop + (addPopAYear * yearChosen);
+     int currentPop=324458075; //current population when claculation was done
+     int addPopAYear= 2147967; //approximate added population per year based on stats listed
+     int yearChosen= 0; //user year input
+     int yearPlus= currentPop + (addPopAYear * yearChosen); //displayed result at end of program
      
      cout<< "The Current Population in the USA is "<< currentPop;
      cout<<endl;
